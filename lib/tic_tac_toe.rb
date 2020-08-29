@@ -46,7 +46,7 @@ def valid_move?(index)
  number2 = input_to_index(number)
   if  valid_move?(number2)
     current_player
-    move(number2,value = "X")
+    move(number2,value =="X")
   else 
     turn
   end

@@ -124,7 +124,7 @@ end
 
 
 
-def play
+def play(board)
   counter = 0 
   until over? || counter == 9 
     turn 

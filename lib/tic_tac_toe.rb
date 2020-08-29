@@ -129,7 +129,6 @@ def play
   until over? || counter == 9 
     turn 
     counter +=1
-  end
   if won?
     winner == "X" || winner == "O"
     puts "Congratulations #{winner}!"
@@ -137,7 +136,7 @@ def play
     puts "Cat\'s Game!"
   end
 end
-
+end
    
 
 

@@ -119,11 +119,10 @@ def winner
 end
 
 def play
-  
-  counter = 0 
-  until  counter == 9 || over? 
+
+  until  over? 
 turn
-    counter += 1
+
   end
   if won?
     winner == "X" || winner == "O"

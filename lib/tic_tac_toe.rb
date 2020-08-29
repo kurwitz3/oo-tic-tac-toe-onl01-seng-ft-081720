@@ -20,7 +20,7 @@ def display_board
  
 end 
 
-def move(index,value = "X")
+def move(index,value == "X")
   @board[index] = value 
 end
  

@@ -45,7 +45,6 @@ def valid_move?(index)
   number = gets.strip
  number2 = input_to_index(number)
   if  valid_move?(number2)
-    current_player
     move(number2,current_player)
   else 
     turn

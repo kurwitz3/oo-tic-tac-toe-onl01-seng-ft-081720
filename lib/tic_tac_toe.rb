@@ -50,7 +50,7 @@ def valid_move?(index)
   else 
     turn
   end
- display_board
+ @board
 end
  
 def turn_count

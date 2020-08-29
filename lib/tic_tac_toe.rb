@@ -123,15 +123,23 @@ end
 
 
 def play
+  counter = 0
+  until counter == 9
+  turn
+  counter += 1
+  end
+end
+
+def play
   until over?
     turn 
+  end
   if won?
     winner == "X" || winner == "O"
     puts "Congratulations #{winner}!"
   else draw?
     puts "Cat\'s Game!"
   end
-end
 end
 
    
